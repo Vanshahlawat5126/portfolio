@@ -1,0 +1,106 @@
+html {
+
+    background-color: LightSkyBlue;
+    font-family: serif;
+}
+
+/* last editted on August18th,2025*/
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    grid: flex;
+    justify-content: center;
+    margin: 10vh auto;
+    border-radius: 5%;
+
+}
+
+h1 {
+
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2.1em;
+
+
+}
+
+h2 {
+
+    font-style: italic;
+
+}
+
+a {
+
+    text-decoration: underline;
+    font-weight: bold;
+    color: black
+}
+
+nav {
+    padding: 0 auto;
+    text-align: center;
+    display: flex;
+
+    justify-content: space-around;
+
+
+}
+
+.top-color {
+
+    background-color: Gainsboro;
+    /* The top grey area*/
+    padding-bottom: 1em;
+
+
+}
+
+h2 {
+
+    margin-left: 1em;
+
+}
+
+#about p {
+
+    margin-left: 1em;
+    font-size: 1.03em;
+
+}
+
+.contact {
+
+
+    padding-bottom: 1em;
+}
+
+.my-picture{
+
+    aspect-ratio: 384 / 497;
+    width:15vw;
+    margin-top: 1em ;
+    padding:0 auto;
+    display:flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid whitesmoke;
+    transition:transform 0.3s ease,box-shadow 0.5s ease;
+    
+
+}
+
+.my-picture:hover{
+    transform:scale(1.2);
+    border:10px  skyblue;
+    box-shadow: 0 0 15px SlateGray ;
+
+
+}
